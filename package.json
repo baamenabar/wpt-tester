@@ -1,0 +1,29 @@
+{
+  "name": "wpt-tester",
+  "version": "0.1.0",
+  "description": "script for requesting and getting tests back from webpagetest.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baamenabar/wpt-tester.git"
+  },
+  "keywords": [
+    "test",
+    "performance",
+    "node",
+    "webpagetest"
+  ],
+  "author": "B. Agustin Amenabar L.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baamenabar/wpt-tester/issues"
+  },
+  "homepage": "https://github.com/baamenabar/wpt-tester#readme",
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "webpagetest": "^0.3.5"
+  }
+}

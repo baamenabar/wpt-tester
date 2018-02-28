@@ -43,7 +43,7 @@ const loadResultData = (testId) => {
 };
 
 const storeRawTestResult = (testId, rawData) => {
-	const testFileStream = fs.createWriteStream('tests/raw/wpt-' + testId + '.txt');
+	const testFileStream = fs.createWriteStream('tests/results/raw/wpt-' + testId + '.txt');
 	testFileStream.write(JSON.stringify(rawData, null, 2));
 	testFileStream.end();
 }
